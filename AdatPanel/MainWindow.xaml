@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AdatPanel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Datas" Height="173" Width="667" Background="#2C3333">
+    <Grid Margin="0,0,0,11">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="dg_adatok" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="dg_adatok_SelectionChanged" Background="#2C3333" RowBackground="#61677A" Foreground="#E7B10A" SelectionMode="Single" VerticalAlignment="Center"  AlternatingRowBackground="#7D7C7C" FontWeight="Bold" RowHeaderWidth="0" Height="132" Padding="2" HorizontalAlignment="Center" Width="646">
+            <DataGrid.Resources>
+                <Style BasedOn="{StaticResource {x:Type DataGridColumnHeader}}" TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="#555" />
+                    <Setter Property="Foreground" Value="#FED049" />
+                    <Setter Property="Padding" Value="5" />
+                </Style>
+            </DataGrid.Resources>
+            <DataGrid.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFFE28E" Offset="0.211"/>
+                    <GradientStop Color="#FFFED049" Offset="0.66"/>
+                </LinearGradientBrush>
+            </DataGrid.BorderBrush>
+
+
+        </DataGrid>
 
     </Grid>
 </Window>

@@ -15,7 +15,7 @@ namespace Server.DatabaseManager
             get
             {
                 MySqlConnection connection = new MySqlConnection();
-                string connctionString = "SERVER=192.168.50.90;"+"DATABASE=weblap;"+"UID=root;"+"PASSWORD=password;"+"SSL MODE=none;";
+                string connctionString = "SERVER=192.168.50.90;"+"DATABASE=weblap;"+"UID=root;"+"PASSWORD=password;"+ "SSL MODE=Required;";
                 connection.ConnectionString = connctionString;
                 return connection;
             }

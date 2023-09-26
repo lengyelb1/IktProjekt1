@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Server;
+using Server.Controllers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +24,22 @@ namespace AdatPanel
     {
         public MainWindow()
         {
+
+            FelhasznalokController felhasznalokController = new FelhasznalokController();
+            List<Record> records = felhasznalokController.Select();
+            List<Felhasznalo> lista = new List<Felhasznalo>();
+            foreach (Record record in records)
+            {
+                lista.Add(record as Felhasznalo);
+            }
             InitializeComponent();
+            dg_adatok.ItemsSource = lista;
+
+        }
+
+        private void dg_adatok_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

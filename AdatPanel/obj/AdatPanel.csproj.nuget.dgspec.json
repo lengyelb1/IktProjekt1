@@ -32,7 +32,11 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\lbálint\\Downloads\\WebShopBackEnd (2)\\WebShopBackEnd\\Server\\Server.csproj": {
+                "projectPath": "C:\\Users\\lbálint\\Downloads\\WebShopBackEnd (2)\\WebShopBackEnd\\Server\\Server.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -65,6 +69,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\lbálint\\Downloads\\WebShopBackEnd (2)\\WebShopBackEnd\\Server\\Server.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lbálint\\Downloads\\WebShopBackEnd (2)\\WebShopBackEnd\\Server\\Server.csproj",
+        "projectName": "Server",
+        "projectPath": "C:\\Users\\lbálint\\Downloads\\WebShopBackEnd (2)\\WebShopBackEnd\\Server\\Server.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
       }
     }
   }
