@@ -44,11 +44,10 @@ namespace AdatPanel
 
         }
 
-        
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Insert_Window window = new Insert_Window();
+            window.Show();
         }
     }
 }

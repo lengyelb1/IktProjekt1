@@ -30,7 +30,7 @@
             </DataGrid.HorizontalGridLinesBrush>
         </DataGrid>
         <Button Content="Update" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="73" Height="22" Foreground="#2F0F5D" Background="#FFB9F5EF" BorderBrush="#FF0EA293" BorderThickness="2" FontWeight="Bold"/>
-        <Button Content="Insert" HorizontalAlignment="Left" Margin="88,0,0,10" VerticalAlignment="Bottom" Width="73" Height="22" Foreground="#2F0F5D" Background="#FFB9F5EF" BorderBrush="#FF0EA293" BorderThickness="2" FontWeight="Bold" Click="Button_Click"/>
+        <Button x:Name="INSERT_btn" Content="Insert" HorizontalAlignment="Left" Margin="88,0,0,10" VerticalAlignment="Bottom" Width="73" Height="22" Foreground="#2F0F5D" Background="#FFB9F5EF" BorderBrush="#FF0EA293" BorderThickness="2" FontWeight="Bold" Click="Button_Click"/>
         <Button Content="Delete" HorizontalAlignment="Left" Margin="166,0,0,10" VerticalAlignment="Bottom" Width="73" Height="22" Foreground="#2F0F5D" Background="#FFB9F5EF" BorderBrush="#FF0EA293" BorderThickness="2" FontWeight="Bold" />
 
     </Grid>
