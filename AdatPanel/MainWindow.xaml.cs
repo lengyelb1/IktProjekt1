@@ -1,8 +1,10 @@
-﻿using Server;
+﻿using AdatPanel.Objects;
+using Server;
 using Server.Controllers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -38,6 +40,13 @@ namespace AdatPanel
         }
 
         private void dg_adatok_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        
+
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
 
         }

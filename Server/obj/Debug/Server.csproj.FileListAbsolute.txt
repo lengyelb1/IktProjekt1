@@ -115,3 +115,42 @@ C:\Users\lbálint\Downloads\WebShopBackEnd (2)\WebShopBackEnd\Server\obj\Debug\S
 C:\Users\lbálint\Downloads\WebShopBackEnd (2)\WebShopBackEnd\Server\obj\Debug\Server.csproj.CopyComplete
 C:\Users\lbálint\Downloads\WebShopBackEnd (2)\WebShopBackEnd\Server\obj\Debug\Server.dll
 C:\Users\lbálint\Downloads\WebShopBackEnd (2)\WebShopBackEnd\Server\obj\Debug\Server.pdb
+F:\IKT_Projekt1\IktProjekt1\Server\bin\Server.dll.config
+F:\IKT_Projekt1\IktProjekt1\Server\bin\Server.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\Server.pdb
+F:\IKT_Projekt1\IktProjekt1\Server\bin\BouncyCastle.Crypto.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\Google.Protobuf.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\K4os.Compression.LZ4.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\K4os.Compression.LZ4.Streams.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\K4os.Hash.xxHash.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\Microsoft.Bcl.AsyncInterfaces.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\MySql.Data.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.Buffers.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.Configuration.ConfigurationManager.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.Diagnostics.DiagnosticSource.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.IO.Pipelines.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.Memory.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.Numerics.Vectors.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.Runtime.CompilerServices.Unsafe.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.Threading.Tasks.Extensions.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\ZstdSharp.dll
+F:\IKT_Projekt1\IktProjekt1\Server\bin\BouncyCastle.Crypto.xml
+F:\IKT_Projekt1\IktProjekt1\Server\bin\Google.Protobuf.pdb
+F:\IKT_Projekt1\IktProjekt1\Server\bin\Google.Protobuf.xml
+F:\IKT_Projekt1\IktProjekt1\Server\bin\K4os.Compression.LZ4.xml
+F:\IKT_Projekt1\IktProjekt1\Server\bin\K4os.Compression.LZ4.Streams.xml
+F:\IKT_Projekt1\IktProjekt1\Server\bin\K4os.Hash.xxHash.xml
+F:\IKT_Projekt1\IktProjekt1\Server\bin\Microsoft.Bcl.AsyncInterfaces.xml
+F:\IKT_Projekt1\IktProjekt1\Server\bin\MySql.Data.xml
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.Buffers.xml
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.Diagnostics.DiagnosticSource.xml
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.IO.Pipelines.xml
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.Memory.xml
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.Numerics.Vectors.xml
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.Runtime.CompilerServices.Unsafe.xml
+F:\IKT_Projekt1\IktProjekt1\Server\bin\System.Threading.Tasks.Extensions.xml
+F:\IKT_Projekt1\IktProjekt1\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+F:\IKT_Projekt1\IktProjekt1\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+F:\IKT_Projekt1\IktProjekt1\Server\obj\Debug\Server.csproj.CopyComplete
+F:\IKT_Projekt1\IktProjekt1\Server\obj\Debug\Server.dll
+F:\IKT_Projekt1\IktProjekt1\Server\obj\Debug\Server.pdb

@@ -5,28 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AdatPanel"
         mc:Ignorable="d"
-        Title="Datas" Height="173" Width="667" Background="#2C3333">
-    <Grid Margin="0,0,0,11">
+        Title="Data Base Manager" Height="206" Width="641" Background="#F0EABE">
+    <Grid Margin="0,0,10,2">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <DataGrid x:Name="dg_adatok" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="dg_adatok_SelectionChanged" Background="#2C3333" RowBackground="#61677A" Foreground="#E7B10A" SelectionMode="Single" VerticalAlignment="Center"  AlternatingRowBackground="#7D7C7C" FontWeight="Bold" RowHeaderWidth="0" Height="132" Padding="2" HorizontalAlignment="Center" Width="646">
+        <DataGrid x:Name="dg_adatok" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="dg_adatok_SelectionChanged" Background="#F0EABE" RowBackground="#FFFFEAAE" Foreground="#2F0F5D" BorderThickness="2" SelectionMode="Single"  AlternatingRowBackground="#27E1C1" FontWeight="Bold" RowHeaderWidth="0" Padding="2" Margin="10,10,10,37" BorderBrush="#FF0EA293" GridLinesVisibility="Vertical">
             <DataGrid.Resources>
                 <Style BasedOn="{StaticResource {x:Type DataGridColumnHeader}}" TargetType="{x:Type DataGridColumnHeader}">
-                    <Setter Property="Background" Value="#555" />
-                    <Setter Property="Foreground" Value="#FED049" />
+                    <Setter Property="Background" Value="#0EA293" />
+                    <Setter Property="Foreground" Value="#2F0F5D" />
                     <Setter Property="Padding" Value="5" />
                 </Style>
+                <Style BasedOn="{StaticResource {x:Type DataGridRowHeader}}" TargetType="{x:Type DataGridRowHeader}">
+                    <Setter Property="Background" Value="#0EA293" />
+                </Style>
+
             </DataGrid.Resources>
-            <DataGrid.BorderBrush>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FFFFE28E" Offset="0.211"/>
-                    <GradientStop Color="#FFFED049" Offset="0.66"/>
-                </LinearGradientBrush>
-            </DataGrid.BorderBrush>
-
-
+            <DataGrid.VerticalGridLinesBrush>
+                <SolidColorBrush Color="#FF2F0F5D" Opacity="1"/>
+            </DataGrid.VerticalGridLinesBrush>
+            <DataGrid.HorizontalGridLinesBrush>
+                <SolidColorBrush Color="White" Opacity="0"/>
+            </DataGrid.HorizontalGridLinesBrush>
         </DataGrid>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="73" Height="22" Foreground="#2F0F5D" Background="#FFB9F5EF" BorderBrush="#FF0EA293" BorderThickness="2" FontWeight="Bold"/>
+        <Button Content="Insert" HorizontalAlignment="Left" Margin="88,0,0,10" VerticalAlignment="Bottom" Width="73" Height="22" Foreground="#2F0F5D" Background="#FFB9F5EF" BorderBrush="#FF0EA293" BorderThickness="2" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="166,0,0,10" VerticalAlignment="Bottom" Width="73" Height="22" Foreground="#2F0F5D" Background="#FFB9F5EF" BorderBrush="#FF0EA293" BorderThickness="2" FontWeight="Bold" />
 
     </Grid>
 </Window>
