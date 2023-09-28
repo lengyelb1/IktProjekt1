@@ -121,3 +121,7 @@ F:\IKT_Projekt1\IktProjekt1\AdatPanel\bin\Debug\net6.0-windows\runtimes\win-x64\
 F:\IKT_Projekt1\IktProjekt1\AdatPanel\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 F:\IKT_Projekt1\IktProjekt1\AdatPanel\obj\Debug\net6.0-windows\Insert_Window.g.cs
 F:\IKT_Projekt1\IktProjekt1\AdatPanel\obj\Debug\net6.0-windows\Insert_Window.baml
+F:\IKT_Projekt1\IktProjekt1\AdatPanel\obj\Debug\net6.0-windows\Delete_Window.g.cs
+F:\IKT_Projekt1\IktProjekt1\AdatPanel\obj\Debug\net6.0-windows\Delete_Window.baml
+F:\IKT_Projekt1\IktProjekt1\AdatPanel\obj\Debug\net6.0-windows\Update_window.g.cs
+F:\IKT_Projekt1\IktProjekt1\AdatPanel\obj\Debug\net6.0-windows\Update_window.baml

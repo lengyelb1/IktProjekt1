@@ -31,7 +31,7 @@ namespace AdatPanel
         {
             FelhasznalokController controller = new FelhasznalokController();
             Felhasznalo felhasznalo = new Felhasznalo();
-            felhasznalo.Id = int.Parse(ID.Text);
+            
             felhasznalo.LoginNev = Login_Nev.Text;
             felhasznalo.HASH = HASH.Text;
             felhasznalo.SALT = SALT.Text;

@@ -49,5 +49,30 @@ namespace AdatPanel
             Insert_Window window = new Insert_Window();
             window.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Delete_Window window = new Delete_Window();
+            window.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Update_window window = new Update_window();
+            window.Show();
+        }
+
+        private void Refresh(object sender, RoutedEventArgs e)
+        {
+            FelhasznalokController felhasznalokController = new FelhasznalokController();
+            List<Record> records = felhasznalokController.Select();
+            List<Felhasznalo> lista = new List<Felhasznalo>();
+            foreach (Record record in records)
+            {
+                lista.Add(record as Felhasznalo);
+            }
+            InitializeComponent();
+            dg_adatok.ItemsSource = lista;
+        }
     }
 }

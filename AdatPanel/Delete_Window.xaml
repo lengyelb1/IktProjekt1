@@ -1,0 +1,25 @@
+﻿<Window x:Class="AdatPanel.Delete_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdatPanel"
+        mc:Ignorable="d"
+        Title="Delete_Window" Height="103" Width="278" Background="#393E46">
+    <Grid>
+        <Button Name="DELETE_btn" Content="DELETE" HorizontalAlignment="Left" Margin="184,55,0,0" VerticalAlignment="Top" Width="84" Click="DELETE_btn_Click" Foreground="#272121" Background="#00FFAB" BorderThickness="2" FontWeight="Bold">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="3"></Setter>
+                </Style>
+
+            </Button.Resources>
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF0EA293" Opacity="0"/>
+            </Button.BorderBrush>
+        </Button>
+        <TextBox Name="ID_textbox" HorizontalAlignment="Left" Margin="95,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="173" Background="#FF525252" Foreground="#FF00FFAB" BorderBrush="#FF2D3138" SelectionBrush="#FF00FF3E"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold" Background="#FF272121" Foreground="#FF00FFAB" Width="69"/>
+
+    </Grid>
+</Window>
