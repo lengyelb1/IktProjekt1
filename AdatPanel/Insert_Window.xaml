@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AdatPanel"
         mc:Ignorable="d"
-        Title="Insert_Window" Height="308" Width="272" Background="#393E46">
-    <Grid>
+        Title="Insert_Window" Height="320" Width="292" Background="#393E46">
+    <Grid Margin="0,0,0,-1">
         <TextBox x:Name ="Login_Nev" HorizontalAlignment="Left" Margin="84,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="172" Background="#FF525252" Foreground="#FF00FFAB" BorderBrush="#FF2D3138" SelectionBrush="#FF00FF3E" />
         <TextBox x:Name ="HASH"  HorizontalAlignment="Left" Margin="84,56,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="172" Background="#FF525252" Foreground="#FF00FFAB" BorderBrush="#FF2D3138" SelectionBrush="#FF00FF3E"/>
         <TextBox x:Name ="SALT"  HorizontalAlignment="Left" Margin="84,79,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="172" Background="#FF525252" Foreground="#FF00FFAB" BorderBrush="#FF2D3138" SelectionBrush="#FF00FF3E"/>
@@ -23,12 +23,12 @@
         <Label Content="Akitv" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Background="#FF272121" Foreground="#FF00FFAB" Width="69"/>
         <Label Content="Email" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Background="#FF272121" Foreground="#FF00FFAB" Width="69"/>
         <Label Content="Profil Kép" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top" Background="#FF272121" Foreground="#FF00FFAB" Width="69"/>
-        <Button Content="INSERT" HorizontalAlignment="Left" Margin="148,253,0,0" VerticalAlignment="Top" Width="108" Height="29" Click="Button_Click" Foreground="#272121" Background="#00FFAB" BorderThickness="2" FontWeight="Bold">
+        <Button Content="INSERT" Margin="0,0,10,10" Width="73" Height="22" Click="Button_Click" Foreground="#272121" Background="#00FFAB" BorderThickness="2" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Bottom">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="3"></Setter>
                 </Style>
-                
+
             </Button.Resources>
             <Button.BorderBrush>
                 <SolidColorBrush Color="#FF0EA293" Opacity="0"/>

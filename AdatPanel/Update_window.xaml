@@ -25,7 +25,7 @@
         <Label Content="Akitv" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Background="#FF272121" Foreground="#FF00FFAB" Width="69"/>
         <Label Content="Email" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Background="#FF272121" Foreground="#FF00FFAB" Width="69"/>
         <Label Content="Profil Kép" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top" Background="#FF272121" Foreground="#FF00FFAB" Width="69"/>
-        <Button Content="Update" HorizontalAlignment="Left" Margin="148,253,0,0" VerticalAlignment="Top" Width="108" Height="29" Click="Button_Click" Foreground="#272121" Background="#00FFAB" BorderThickness="2" FontWeight="Bold">
+        <Button Content="Update" Margin="0,0,10,10" Click="Button_Click" Foreground="#272121" Background="#00FFAB" BorderThickness="2" FontWeight="Bold" VerticalAlignment="Bottom" HorizontalAlignment="Right">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="3"></Setter>

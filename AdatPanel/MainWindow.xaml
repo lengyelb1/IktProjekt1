@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AdatPanel"
         mc:Ignorable="d"
-        Title="Data Base Manager" Height="208" Width="648" Background="#393E46">
+        Title="Data Base Manager" Height="222" Width="676" Background="#393E46">
     <Grid Margin="0,0,0,3">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <DataGrid x:Name="dg_adatok" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="dg_adatok_SelectionChanged" Background="#393E46" RowBackground="#525252" Foreground="#00FFAB" BorderThickness="2" SelectionMode="Single"  AlternatingRowBackground="#363333" FontWeight="Bold" RowHeaderWidth="0" Padding="2" Margin="10,10,10,37" GridLinesVisibility="Vertical">
+        <DataGrid x:Name="dg_adatok" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="dg_adatok_SelectionChanged" Background="#393E46" RowBackground="#525252" Foreground="#00FFAB" BorderThickness="2" SelectionMode="Single"  AlternatingRowBackground="#363333" FontWeight="Bold" RowHeaderWidth="0" Padding="2" Margin="10,10,10,37" GridLinesVisibility="Vertical" IsReadOnly="True">
             <DataGrid.Resources>
                 <Style BasedOn="{StaticResource {x:Type DataGridColumnHeader}}" TargetType="{x:Type DataGridColumnHeader}">
                     <Setter Property="Background" Value="#272121" />
@@ -20,7 +20,7 @@
                 <Style BasedOn="{StaticResource {x:Type DataGridRowHeader}}" TargetType="{x:Type DataGridRowHeader}">
                     <Setter Property="Background" Value="#0EA293" />
                 </Style>
-                
+
             </DataGrid.Resources>
             <DataGrid.BorderBrush>
                 <SolidColorBrush Color="#FF0EA293" Opacity="0"/>
@@ -28,7 +28,7 @@
             <DataGrid.VerticalGridLinesBrush>
                 <SolidColorBrush Color="White" Opacity="1"/>
             </DataGrid.VerticalGridLinesBrush>
-            
+
         </DataGrid>
         <Button Content="Update" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="73" Height="22" Foreground="#272121" Background="#00FFAB" BorderThickness="2" FontWeight="Bold" Click="Button_Click_2">
             <Button.Resources>
@@ -61,7 +61,7 @@
             </Button.BorderBrush>
         </Button>
 
-        <Button Content="Refresh" HorizontalAlignment="Left" Margin="563,157,0,0" VerticalAlignment="Top" Width="73" Height="22" Foreground="#272121" Background="#00FFAB" BorderThickness="2" FontWeight="Bold" Click="Refresh" >
+        <Button Content="Refresh" Margin="0,0,10,10" Width="73" Height="22" Foreground="#272121" Background="#00FFAB" BorderThickness="2" FontWeight="Bold" Click="Refresh" HorizontalAlignment="Right" VerticalAlignment="Bottom" >
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="3"></Setter>

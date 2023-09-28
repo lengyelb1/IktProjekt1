@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AdatPanel"
         mc:Ignorable="d"
-        Title="Delete_Window" Height="103" Width="278" Background="#393E46">
+        Title="Delete_Window" Height="121" Width="298" Background="#393E46">
     <Grid>
-        <Button Name="DELETE_btn" Content="DELETE" HorizontalAlignment="Left" Margin="184,55,0,0" VerticalAlignment="Top" Width="84" Click="DELETE_btn_Click" Foreground="#272121" Background="#00FFAB" BorderThickness="2" FontWeight="Bold">
+        <Button Name="DELETE_btn" Content="DELETE"  Margin="0,0,10,10" Click="DELETE_btn_Click" Foreground="#272121" Background="#00FFAB" BorderThickness="2" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Bottom">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="3"></Setter>
